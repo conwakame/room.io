@@ -1,23 +1,23 @@
-body {
-   font-family:'Noto Sans JP',sans-serif;
-   background-color:#f6f5f4;
+#wp-main-side{
+    width:920px;
+    margin:0 auto;
 }
 
-.side {
-  background-color:#ff838b;
-  width:100px;
-  height:300px;
-  text-align:center;
-} 
-
-.content {
-  background-color:#b3d874;
-  width:250px;
-  height:300px;
-  text-align:center;
-  margin-left:10px;/*サイドバーとメインコンテンツの間に隙間                    をあけた*/
+#main{
+    width:680px;
+    margin-bottom: 30px;
+    float:right;
+    border:1px solid red;
 }
 
-article {
-  display:flex;/*サイドバーとメインコンテンツを横並びにする                指定をした*/
+#side{
+    width:220px;
+    float:left;
+    border:1px solid red;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
 }
